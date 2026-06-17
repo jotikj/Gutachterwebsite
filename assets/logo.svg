@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" fill="none">
+  <!-- Car silhouette -->
+  <g stroke="#1a3c1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Main body line -->
+    <path d="M30 95 C50 90, 70 75, 100 60 C130 45, 155 30, 190 25 C220 20, 260 18, 300 22 C330 25, 350 30, 370 38 C390 46, 405 55, 420 65 C435 72, 450 78, 470 82 C480 84, 490 86, 495 90"/>
+    <!-- Windshield -->
+    <path d="M255 22 C260 40, 280 55, 310 58"/>
+    <!-- Rear window -->
+    <path d="M190 28 C200 42, 220 52, 250 55"/>
+    <!-- Bottom line -->
+    <path d="M60 100 C120 102, 200 105, 280 105 C360 105, 420 102, 480 95"/>
+    <!-- Front wheel arch -->
+    <path d="M365 100 C370 85, 390 78, 410 80 C425 82, 440 90, 440 100"/>
+    <!-- Rear wheel arch -->
+    <path d="M100 100 C105 87, 120 80, 138 80 C155 80, 170 88, 175 100"/>
+    <!-- Door line -->
+    <path d="M270 55 L272 100"/>
+    <!-- Front detail -->
+    <path d="M460 82 C470 80, 485 82, 490 88"/>
+    <!-- Rear detail -->
+    <path d="M45 92 C55 88, 70 90, 75 95"/>
+  </g>
+  <!-- Company name -->
+  <text x="260" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#111827">Ing. &amp; Kfz Sachverständigenbüro</text>
+  <!-- Horizontal lines -->
+  <line x1="80" y1="158" x2="200" y2="158" stroke="#1a3c1a" stroke-width="3"/>
+  <line x1="320" y1="158" x2="440" y2="158" stroke="#1a3c1a" stroke-width="3"/>
+  <!-- Kajtazi name -->
+  <text x="260" y="182" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="400" font-size="36" fill="#111827">Kajtazi</text>
+</svg>

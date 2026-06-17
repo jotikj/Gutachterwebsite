@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary: #1a56db;
-    --primary-dark: #1244b0;
-    --primary-light: #e8effc;
+    --primary: #1a3c1a;
+    --primary-dark: #122b12;
+    --primary-light: #e6f0e6;
     --accent: #f59e0b;
     --text: #111827;
     --text-secondary: #4b5563;
@@ -86,15 +86,16 @@ img {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-weight: 800;
-    font-size: 1.25rem;
-    color: var(--text);
 }
 
-.logo-icon {
-    color: var(--primary);
-    font-size: 1.5rem;
+.logo-img {
+    height: 48px;
+    width: auto;
+}
+
+.footer-brand .logo-img {
+    height: 56px;
+    filter: brightness(0) invert(1);
 }
 
 .nav-menu {
@@ -178,7 +179,7 @@ img {
     right: -20%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(26,86,219,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(26,60,26,0.1) 0%, transparent 70%);
     border-radius: 50%;
 }
 
@@ -325,8 +326,8 @@ img {
 }
 
 .section-dark .section-badge {
-    background: rgba(26,86,219,0.2);
-    color: #93b4f4;
+    background: rgba(26,60,26,0.2);
+    color: #8fbc8f;
 }
 
 .section-header h2 {
@@ -408,7 +409,7 @@ img {
 
 .advantage-card:hover {
     transform: translateY(-4px);
-    border-color: rgba(26,86,219,0.3);
+    border-color: rgba(26,60,26,0.3);
 }
 
 .advantage-number {
@@ -491,8 +492,8 @@ img {
 
 .area-tag:hover {
     border-color: var(--primary);
-    background: rgba(26,86,219,0.15);
-    color: #93b4f4;
+    background: rgba(26,60,26,0.15);
+    color: #8fbc8f;
 }
 
 /* ===== FAQ ===== */
@@ -670,7 +671,7 @@ img {
 .form-group input:focus,
 .form-group textarea:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(26,86,219,0.1);
+    box-shadow: 0 0 0 3px rgba(26,60,26,0.1);
 }
 
 .form-group input::placeholder,
@@ -774,7 +775,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(26,86,219,0.4);
+    box-shadow: 0 4px 12px rgba(26,60,26,0.4);
     transition: all var(--transition);
     z-index: 999;
 }
